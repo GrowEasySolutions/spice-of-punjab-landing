@@ -1,0 +1,950 @@
+{
+  "categories": [
+    {
+      "name": "Appetizers & Chaat",
+      "items": [
+        {
+          "name": "Plain Dahi",
+          "desc": "Seasoned yogurt.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Aloo Puri",
+          "desc": "Fried bread with spiced potatoes.",
+          "price": "$8.50"
+        },
+        {
+          "name": "Veg Wrap",
+          "desc": "Vegetarian wrap with chutneys.",
+          "price": "$6.99"
+        },
+        {
+          "name": "Aloo Tikki Plate",
+          "desc": "Spiced potato patties with chutneys.",
+          "price": "$7.50"
+        },
+        {
+          "name": "Noodles",
+          "desc": "Stir-fried noodles.",
+          "price": "$9.99"
+        },
+        {
+          "name": "Chilli Fish (Large)",
+          "desc": "Deboned fish with peppers in chef\u2019s sauce.",
+          "price": "$18.00"
+        },
+        {
+          "name": "Aloo Tikki Burger",
+          "desc": "Potato patty burger with chutneys.",
+          "price": "$6.99"
+        },
+        {
+          "name": "Tandoori Mix Grill",
+          "desc": "Assorted tandoori specialties.",
+          "price": "$16.00"
+        },
+        {
+          "name": "Seekh Kebab",
+          "desc": "Minced chicken kebab, clay-oven cooked.",
+          "price": "$15.00"
+        },
+        {
+          "name": "Chicken Wrap",
+          "desc": "Chicken wrap with salad & chutneys.",
+          "price": "$7.99"
+        },
+        {
+          "name": "Chat Papri",
+          "desc": "Crisp wafers, chickpeas, potatoes, chutneys, yogurt.",
+          "price": "$7.50"
+        },
+        {
+          "name": "Raita",
+          "desc": "Seasoned yogurt with cucumber & spices.",
+          "price": "$4.99"
+        },
+        {
+          "name": "Salad (Plate)",
+          "desc": "Fresh mixed salad.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Dahi Bhalla (Plate)",
+          "desc": "Lentil dumplings in seasoned yogurt.",
+          "price": "$6.00"
+        },
+        {
+          "name": "Gol Gappe (Plate)",
+          "desc": "Crisp puri with tangy spiced water.",
+          "price": "$7.00"
+        },
+        {
+          "name": "Amritsari Channa Kulcha",
+          "desc": "Chickpeas curry with stuffed bread.",
+          "price": "$10.00"
+        },
+        {
+          "name": "Bread Kulcha",
+          "desc": "Stuffed kulcha bread.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Chicken Tikka",
+          "desc": "Boneless tandoori chicken pieces.",
+          "price": "$15.00"
+        },
+        {
+          "name": "Paneer Tikka (Plate)",
+          "desc": "Grilled cottage cheese with spices.",
+          "price": "$14.00"
+        },
+        {
+          "name": "Pau Bhaji",
+          "desc": "Spiced mashed vegetables with buns.",
+          "price": "$8.50"
+        },
+        {
+          "name": "Chana Bhatura",
+          "desc": "Chickpeas curry and fried bread.",
+          "price": "$8.50"
+        },
+        {
+          "name": "Samosa (Plate)",
+          "desc": "Potato & pea pastry.",
+          "price": "$7.50"
+        },
+        {
+          "name": "Veg Manchurian",
+          "desc": "Crispy veg balls in tangy sauce.",
+          "price": "$12.00"
+        },
+        {
+          "name": "Chicken Samosa",
+          "desc": "Stuffed with minced chicken.",
+          "price": "$2.50"
+        },
+        {
+          "name": "French Fries",
+          "desc": "Crisp golden fries.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Tandoori Fish",
+          "desc": "Marinated fish grilled in tandoor.",
+          "price": "$14.00"
+        },
+        {
+          "name": "Chilli Fish (Regular)",
+          "desc": "Deboned fish with peppers in chef\u2019s sauce.",
+          "price": "$12.00"
+        },
+        {
+          "name": "Tandoori Chicken",
+          "desc": "Marinated chicken grilled in tandoor.",
+          "price": "$15.00"
+        },
+        {
+          "name": "Fish Pakoras",
+          "desc": "Crispy battered fish.",
+          "price": "$12.00"
+        },
+        {
+          "name": "Cheese Pakoras (Plate)",
+          "desc": "Cottage cheese fritters.",
+          "price": "$10.00"
+        },
+        {
+          "name": "Chicken Pakoras (Plate)",
+          "desc": "Spiced chicken fritters.",
+          "price": "$12.00"
+        },
+        {
+          "name": "Noodles Burger",
+          "desc": "Fusion noodle patty burger.",
+          "price": "$7.99"
+        },
+        {
+          "name": "Bread Pakora",
+          "desc": "Stuffed bread fritter.",
+          "price": "$3.00"
+        },
+        {
+          "name": "Aloo Tikki (single)",
+          "desc": "Spiced potato patty.",
+          "price": "$1.00"
+        },
+        {
+          "name": "Veg Pakoras (Plate)",
+          "desc": "Mixed vegetable fritters.",
+          "price": "$8.00"
+        },
+        {
+          "name": "Vegetable Samosa (each)",
+          "desc": "Classic potato & pea pastry.",
+          "price": "$1.00"
+        }
+      ]
+    },
+    {
+      "name": "Biryani Special",
+      "items": [
+        {
+          "name": "Rice",
+          "price": "$5.99"
+        },
+        {
+          "name": "Rice (Large)",
+          "price": "$8.00"
+        },
+        {
+          "name": "Rice Pulao",
+          "price": "$7.99"
+        },
+        {
+          "name": "Rice Pulao (Large)",
+          "price": "$10.00"
+        },
+        {
+          "name": "Chicken Biryani",
+          "desc": "Boneless chicken with basmati rice.",
+          "price": "$14.00"
+        },
+        {
+          "name": "Chicken Biryani (Large)",
+          "desc": "Boneless chicken with basmati rice.",
+          "price": "$18.00"
+        },
+        {
+          "name": "Vegetable Biryani",
+          "desc": "Basmati rice with vegetables.",
+          "price": "$12.00"
+        },
+        {
+          "name": "Vegetable Biryani (Large)",
+          "desc": "Basmati rice with vegetables.",
+          "price": "$18.00"
+        },
+        {
+          "name": "Lamb Biryani",
+          "desc": "Boneless lamb with basmati rice.",
+          "price": "$15.00"
+        },
+        {
+          "name": "Lamb Biryani (Large)",
+          "desc": "Boneless lamb with basmati rice.",
+          "price": "$20.00"
+        }
+      ]
+    },
+    {
+      "name": "Chef Special",
+      "items": [
+        {
+          "name": "Butter Shrimps (Regular)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Butter Shrimps (Large)",
+          "price": "$20.00"
+        },
+        {
+          "name": "Shrimp Curry (Regular)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Shrimp Curry (Large)",
+          "price": "$20.00"
+        },
+        {
+          "name": "Lamb Methi (Regular)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Lamb Methi (Large)",
+          "price": "$20.00"
+        },
+        {
+          "name": "Karahi Chicken (Regular)",
+          "price": "$14.00"
+        },
+        {
+          "name": "Karahi Chicken (Large)",
+          "price": "$19.00"
+        },
+        {
+          "name": "Chicken Korma (Regular)",
+          "price": "$14.00"
+        },
+        {
+          "name": "Chicken Korma (Large)",
+          "price": "$19.00"
+        }
+      ]
+    },
+    {
+      "name": "Meat Speciality",
+      "items": [
+        {
+          "name": "Chicken Tikka Masala (Regular)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Chicken Tikka Masala (Large)",
+          "price": "$20.00"
+        },
+        {
+          "name": "Shrimp Mushroom (Regular)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Shrimp Mushroom (Large)",
+          "price": "$20.00"
+        },
+        {
+          "name": "Lamb Mushroom",
+          "price": "$15.00"
+        },
+        {
+          "name": "Chicken Mushroom (Large)",
+          "price": "$19.00"
+        },
+        {
+          "name": "Spice Chicken (Regular)",
+          "price": "$14.00"
+        },
+        {
+          "name": "Spice Chicken (Large)",
+          "price": "$19.00"
+        },
+        {
+          "name": "Chilli Chicken (Regular)",
+          "price": "$14.00"
+        },
+        {
+          "name": "Chilli Chicken (Large)",
+          "price": "$19.00"
+        },
+        {
+          "name": "Butter Chicken (Regular)",
+          "price": "$14.00"
+        },
+        {
+          "name": "Butter Chicken (Large)",
+          "price": "$19.00"
+        },
+        {
+          "name": "Goat Curry (Regular)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Goat Curry (Large)",
+          "price": "$20.00"
+        },
+        {
+          "name": "Chicken Vindaloo (Regular)",
+          "price": "$14.00"
+        },
+        {
+          "name": "Chicken Vindaloo (Large)",
+          "price": "$19.00"
+        },
+        {
+          "name": "Chicken Masala (Regular)",
+          "price": "$14.00"
+        },
+        {
+          "name": "Chicken Masala (Large)",
+          "price": "$19.00"
+        },
+        {
+          "name": "Achari Chicken (Regular)",
+          "price": "$14.00"
+        },
+        {
+          "name": "Achari Chicken (Large)",
+          "price": "$19.00"
+        },
+        {
+          "name": "Spinach Lamb (Regular)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Spinach Lamb (Large)",
+          "price": "$20.00"
+        },
+        {
+          "name": "Chicken Saag (Regular)",
+          "price": "$14.00"
+        },
+        {
+          "name": "Chicken Saag (Large)",
+          "price": "$19.00"
+        },
+        {
+          "name": "Mushroom Lamb Curry (Regular)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Mushroom Lamb Curry (Large)",
+          "price": "$20.00"
+        },
+        {
+          "name": "Lamb Curry (Regular)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Lamb Curry (Large)",
+          "price": "$20.00"
+        },
+        {
+          "name": "Chicken Curry (Regular)",
+          "price": "$14.00"
+        },
+        {
+          "name": "Chicken Curry (Large)",
+          "price": "$19.00"
+        },
+        {
+          "name": "Chilli Lamb (Regular)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Chilli Lamb (Large)",
+          "price": "$20.00"
+        }
+      ]
+    },
+    {
+      "name": "Vegetarian Speciality",
+      "items": [
+        {
+          "name": "Butter Sauce (Regular)",
+          "price": "$10.00"
+        },
+        {
+          "name": "Butter Sauce (Large)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Punjabi Kadi (Regular)",
+          "price": "$10.00"
+        },
+        {
+          "name": "Punjabi Kadi (Large)",
+          "price": "$17.00"
+        },
+        {
+          "name": "Paneer Bhurji (Regular)",
+          "price": "$12.00"
+        },
+        {
+          "name": "Paneer Bhurji (Large)",
+          "price": "$17.00"
+        },
+        {
+          "name": "Chilli Paneer (Regular)",
+          "desc": "Cottage cheese with peppers & onions.",
+          "price": "$12.00"
+        },
+        {
+          "name": "Chilli Paneer (Large)",
+          "desc": "Cottage cheese with peppers & onions.",
+          "price": "$17.00"
+        },
+        {
+          "name": "Malai Kofta (Regular)",
+          "price": "$12.00"
+        },
+        {
+          "name": "Malai Kofta (Large)",
+          "price": "$17.00"
+        },
+        {
+          "name": "Shahi Paneer (Regular)",
+          "price": "$12.00"
+        },
+        {
+          "name": "Shahi Paneer (Large)",
+          "price": "$17.00"
+        },
+        {
+          "name": "Bhindi Masala (Regular)",
+          "price": "$10.00"
+        },
+        {
+          "name": "Bhindi Masala (Large)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Rajma (Regular)",
+          "price": "$10.00"
+        },
+        {
+          "name": "Rajma (Large)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Dal Makahani (Regular)",
+          "price": "$10.00"
+        },
+        {
+          "name": "Dal Makahani (Large)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Yellow Dal (Regular)",
+          "price": "$10.00"
+        },
+        {
+          "name": "Yellow Dal (Large)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Dal Tadka (Regular)",
+          "price": "$10.00"
+        },
+        {
+          "name": "Dal Tadka (Large)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Aloo Mutter (Regular)",
+          "desc": "Curried peas and potatoes.",
+          "price": "$10.00"
+        },
+        {
+          "name": "Aloo Mutter (Large)",
+          "desc": "Curried peas and potatoes.",
+          "price": "$15.00"
+        },
+        {
+          "name": "Chana Masala (Regular)",
+          "desc": "Garbanzo beans in rich sauce.",
+          "price": "$10.00"
+        },
+        {
+          "name": "Chana Masala (Large)",
+          "desc": "Garbanzo beans in rich sauce.",
+          "price": "$15.00"
+        },
+        {
+          "name": "Sarson Ka Saag (Regular)",
+          "desc": "Curried mustard leaves.",
+          "price": "$10.00"
+        },
+        {
+          "name": "Sarson Ka Saag (Large)",
+          "desc": "Curried mustard leaves.",
+          "price": "$15.00"
+        },
+        {
+          "name": "Aloo Gobi (Regular)",
+          "desc": "Potatoes & cauliflower.",
+          "price": "$10.00"
+        },
+        {
+          "name": "Aloo Gobi (Large)",
+          "desc": "Potatoes & cauliflower.",
+          "price": "$15.00"
+        },
+        {
+          "name": "Veg Korma (Regular)",
+          "price": "$10.00"
+        },
+        {
+          "name": "Veg Korma (Large)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Mixed Vegetables (Regular)",
+          "price": "$10.00"
+        },
+        {
+          "name": "Mixed Vegetables (Large)",
+          "price": "$15.00"
+        },
+        {
+          "name": "Saag Paneer (Regular)",
+          "desc": "Mustard leaves & paneer.",
+          "price": "$12.00"
+        },
+        {
+          "name": "Saag Paneer (Large)",
+          "desc": "Mustard leaves & paneer.",
+          "price": "$17.00"
+        },
+        {
+          "name": "Palak Paneer (Regular)",
+          "desc": "Spinach with paneer.",
+          "price": "$12.00"
+        },
+        {
+          "name": "Palak Paneer (Large)",
+          "desc": "Spinach with paneer.",
+          "price": "$17.00"
+        },
+        {
+          "name": "Karahi Paneer (Regular)",
+          "price": "$13.00"
+        },
+        {
+          "name": "Karahi Paneer (Large)",
+          "price": "$18.00"
+        },
+        {
+          "name": "Bharta (Regular)",
+          "price": "$12.00"
+        },
+        {
+          "name": "Bharta (Large)",
+          "price": "$17.00"
+        },
+        {
+          "name": "Mutter Paneer (Regular)",
+          "desc": "Peas & paneer in curry.",
+          "price": "$12.00"
+        },
+        {
+          "name": "Mutter Paneer (Large)",
+          "desc": "Peas & paneer in curry.",
+          "price": "$17.00"
+        }
+      ]
+    },
+    {
+      "name": "Indian Breads",
+      "items": [
+        {
+          "name": "Amritkulcha Only",
+          "price": "$6.00"
+        },
+        {
+          "name": "Butter Naan",
+          "price": "$2.50"
+        },
+        {
+          "name": "Paneer Paratha",
+          "price": "$6.50"
+        },
+        {
+          "name": "Mixed Paratha",
+          "price": "$6.00"
+        },
+        {
+          "name": "Gobhi Paratha",
+          "desc": "Paratha with cauliflower.",
+          "price": "$6.00"
+        },
+        {
+          "name": "Muli Paratha",
+          "price": "$6.00"
+        },
+        {
+          "name": "Puri",
+          "price": "$2.50"
+        },
+        {
+          "name": "Makki Di Rotti",
+          "price": "$3.00"
+        },
+        {
+          "name": "Aloo Paratha",
+          "price": "$6.00"
+        },
+        {
+          "name": "Plain Paratha",
+          "price": "$4.00"
+        },
+        {
+          "name": "Chapati",
+          "price": "$1.50"
+        },
+        {
+          "name": "Bhatura",
+          "desc": "Similar to naan, then deep fried.",
+          "price": "$2.50"
+        },
+        {
+          "name": "Chicken Naan",
+          "price": "$6.00"
+        },
+        {
+          "name": "Paneer Naan",
+          "price": "$6.00"
+        },
+        {
+          "name": "Spice Naan",
+          "price": "$2.50"
+        },
+        {
+          "name": "Naan Aloo",
+          "desc": "Potatoes cooked inside naan.",
+          "price": "$5.00"
+        },
+        {
+          "name": "Onion Naan",
+          "price": "$4.00"
+        },
+        {
+          "name": "Garlic Naan",
+          "price": "$2.50"
+        },
+        {
+          "name": "Tandoori Roti",
+          "price": "$1.50"
+        },
+        {
+          "name": "Naan",
+          "price": "$2.00"
+        }
+      ]
+    },
+    {
+      "name": "Lunch Specials",
+      "items": [
+        {
+          "name": "Any Two Paratha with Dahi",
+          "price": "$10.99"
+        },
+        {
+          "name": "Paneer Partha Plate",
+          "price": "$13.99"
+        },
+        {
+          "name": "Curry Chicken & Rice/Naan",
+          "price": "$11.99"
+        },
+        {
+          "name": "Shahi Paneer & Rice/Naan",
+          "price": "$11.99"
+        },
+        {
+          "name": "Butter Chicken & Rice/Naan",
+          "price": "$11.99"
+        },
+        {
+          "name": "Shahi Paneer",
+          "price": "$11.99"
+        },
+        {
+          "name": "Palak Paneer",
+          "price": "$11.99"
+        },
+        {
+          "name": "Mutter Paneer",
+          "price": "$11.99"
+        },
+        {
+          "name": "Dal Makhni",
+          "price": "$11.99"
+        },
+        {
+          "name": "Butter Chicken",
+          "price": "$11.99"
+        },
+        {
+          "name": "Curry Chicken",
+          "price": "$11.99"
+        }
+      ]
+    },
+    {
+      "name": "Desserts & Drinks",
+      "items": [
+        {
+          "name": "Badam Milk Shake",
+          "price": "$3.50"
+        },
+        {
+          "name": "Punjabi Kulfi",
+          "price": "$3.99"
+        },
+        {
+          "name": "Sweet Lassi",
+          "price": "$4.50"
+        },
+        {
+          "name": "Salted Lassi",
+          "price": "$4.50"
+        },
+        {
+          "name": "Mango Lassi",
+          "price": "$4.50"
+        },
+        {
+          "name": "Tea",
+          "price": "$3.00"
+        },
+        {
+          "name": "Mango Shake",
+          "price": "$4.50"
+        },
+        {
+          "name": "Gajjrela (Gajar Halwa)",
+          "price": "$3.99"
+        },
+        {
+          "name": "Gulab Jamun (2 pcs)",
+          "price": "$3.99"
+        },
+        {
+          "name": "Ras Malai (2 pcs)",
+          "price": "$3.99"
+        }
+      ]
+    },
+    {
+      "name": "Sweets (per lb unless noted)",
+      "items": [
+        {
+          "name": "Besan Pista",
+          "price": "$8.00"
+        },
+        {
+          "name": "Boondi",
+          "price": "$5.00"
+        },
+        {
+          "name": "Sabzi Pakora",
+          "price": "$6.00"
+        },
+        {
+          "name": "Matri",
+          "price": "$7.00"
+        },
+        {
+          "name": "Mathi",
+          "price": "$6.00"
+        },
+        {
+          "name": "Seerni",
+          "price": "$6.00"
+        },
+        {
+          "name": "Badana",
+          "price": "$6.00"
+        },
+        {
+          "name": "Goggle",
+          "price": "$6.00"
+        },
+        {
+          "name": "Gurp\u0101re",
+          "price": "$6.50"
+        },
+        {
+          "name": "Petha",
+          "price": "$8.00"
+        },
+        {
+          "name": "Gujiya",
+          "price": "$9.00"
+        },
+        {
+          "name": "Dairy Sweet",
+          "price": "$10.50"
+        },
+        {
+          "name": "Mix Sweet",
+          "price": "$9.50"
+        },
+        {
+          "name": "Mix Sweet Barfi",
+          "price": "$10.50"
+        },
+        {
+          "name": "Alsi Pinni",
+          "price": "$9.00"
+        },
+        {
+          "name": "Seerni Sugar",
+          "price": "$6.00"
+        },
+        {
+          "name": "Khoea Barfi",
+          "price": "$10.50"
+        },
+        {
+          "name": "Shakarpare",
+          "price": "$6.00"
+        },
+        {
+          "name": "Balushahi",
+          "price": "$6.50"
+        },
+        {
+          "name": "Patisa",
+          "price": "$7.50"
+        },
+        {
+          "name": "Urad Dal Pinni",
+          "price": "$9.00"
+        },
+        {
+          "name": "Kaju Barfi",
+          "price": "$11.00"
+        },
+        {
+          "name": "Gajrella",
+          "price": "$10.50"
+        },
+        {
+          "name": "Dodha Barfi",
+          "price": "$10.50"
+        },
+        {
+          "name": "Kalakand",
+          "price": "$10.50"
+        },
+        {
+          "name": "Milk Cake",
+          "price": "$10.50"
+        },
+        {
+          "name": "White Barfi",
+          "price": "$9.00"
+        },
+        {
+          "name": "Brown Barfi",
+          "price": "$11.00"
+        },
+        {
+          "name": "Stuffed Rasgulla",
+          "price": "$9.00"
+        },
+        {
+          "name": "Rasgulla",
+          "price": "$7.50"
+        },
+        {
+          "name": "Gulab Jamun (box)",
+          "price": "$7.50"
+        },
+        {
+          "name": "Imarti",
+          "price": "$8.00"
+        },
+        {
+          "name": "Jalebi",
+          "price": "$5.00"
+        },
+        {
+          "name": "Motichur Laddu",
+          "price": "$6.50"
+        },
+        {
+          "name": "Regular Laddu",
+          "price": "$5.00"
+        },
+        {
+          "name": "Besan",
+          "price": "$7.50"
+        },
+        {
+          "name": "Besan Laddu",
+          "price": "$6.50"
+        }
+      ]
+    }
+  ]
+}
