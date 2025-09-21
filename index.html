@@ -9,14 +9,14 @@
   <meta property="og:title" content="Spice of Punjab – Sweets & Restaurant" />
   <meta property="og:description" content="Authentic Punjabi flavors in Surrey, BC. Dine-in, catering, and online ordering." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="/images/og-image.jpg" />
+  <meta property="og:image" content="images/og-image.jpg" />
   <meta property="og:url" content="https://www.spiceofpunjab.ca/" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": "Spice of Punjab – Sweets & Restaurant",
-    "image": ["/images/og-image.jpg"],
+    "image": ["images/og-image.jpg"],
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "6350 120 St #147",
@@ -36,17 +36,10 @@
   </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    :root{
-      --brand-red:#8B1D27;
-      --brand-gold:#D4AF37;
-      --brand-cream:#FFF7ED;
-    }
-    .bg-brand-red{background-color:var(--brand-red)}
-    .text-brand-red{color:var(--brand-red)}
-    .bg-brand-gold{background-color:var(--brand-gold)}
-    .text-brand-gold{color:var(--brand-gold)}
-    .bg-brand-cream{background-color:var(--brand-cream)}
-    .shadow-soft{box-shadow:0 10px 30px rgba(0,0,0,.08)}
+    :root{ --brand-red:#8B1D27; --brand-gold:#D4AF37; --brand-cream:#FFF7ED; }
+    .bg-brand-red{background-color:var(--brand-red)} .text-brand-red{color:var(--brand-red)}
+    .bg-brand-gold{background-color:var(--brand-gold)} .text-brand-gold{color:var(--brand-gold)}
+    .bg-brand-cream{background-color:var(--brand-cream)} .shadow-soft{box-shadow:0 10px 30px rgba(0,0,0,.08)}
   </style>
 </head>
 <body class="antialiased text-[17px] leading-relaxed text-slate-800 bg-brand-cream">
@@ -54,7 +47,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <a href="#" aria-label="Spice of Punjab" class="flex items-center gap-3">
-          <img src="/images/logo.png" alt="Spice of Punjab logo" class="h-9 w-auto" />
+          <img src="images/logo.png" alt="Spice of Punjab logo" class="h-9 w-auto" />
           <span class="sr-only">Spice of Punjab – Sweets & Restaurant</span>
         </a>
         <nav class="hidden md:flex items-center gap-8 font-medium">
@@ -62,7 +55,7 @@
           <a href="#catering" class="hover:text-brand-red">Catering</a>
           <a href="#gallery" class="hover:text-brand-red">Gallery</a>
           <a href="#contact" class="hover:text-brand-red">Contact</a>
-          <a href="/order" class="inline-flex items-center rounded-lg bg-brand-red text-white px-4 py-2 shadow-soft hover:opacity-90">Order Online</a>
+          <a href="order" class="inline-flex items-center rounded-lg bg-brand-red text-white px-4 py-2 shadow-soft hover:opacity-90">Order Online</a>
         </nav>
         <button id="navBtn" class="md:hidden inline-flex items-center justify-center rounded-md p-2 text-slate-700 hover:bg-slate-100" aria-label="Open Menu">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M3.75 5.75h16.5v1.5H3.75zm0 5h16.5v1.5H3.75zm0 5h16.5v1.5H3.75z"/></svg>
@@ -75,21 +68,21 @@
         <a href="#catering" class="block py-2">Catering</a>
         <a href="#gallery" class="block py-2">Gallery</a>
         <a href="#contact" class="block py-2">Contact</a>
-        <a href="/order" class="block py-2 font-semibold text-white text-center rounded-lg bg-brand-red">Order Online</a>
+        <a href="order" class="block py-2 font-semibold text-white text-center rounded-lg bg-brand-red">Order Online</a>
       </div>
     </div>
   </header>
 
   <section class="relative">
     <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-black/10 pointer-events-none"></div>
-    <img src="/images/hero.jpg" alt="Punjabi thali" class="w-full h-[60vh] object-cover" />
+    <img src="images/hero.jpg" alt="Punjabi thali" class="w-full h-[60vh] object-cover" />
     <div class="absolute inset-0 flex items-center">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-2xl text-white drop-shadow">
           <h1 class="text-4xl sm:text-5xl font-extrabold">Where Punjab Lives on Your Plate</h1>
           <p class="mt-3 text-white/95">Authentic Punjabi flavors, modern dining experience in Surrey.</p>
           <div class="mt-6 flex flex-wrap gap-3">
-            <a href="/order" class="inline-flex items-center rounded-lg bg-brand-red text-white px-5 py-3 shadow-soft">Order Online</a>
+            <a href="order" class="inline-flex items-center rounded-lg bg-brand-red text-white px-5 py-3 shadow-soft">Order Online</a>
             <a href="#menu" class="inline-flex items-center rounded-lg bg-white text-brand-red px-5 py-3 shadow-soft">View Menu</a>
           </div>
         </div>
@@ -99,7 +92,7 @@
 
   <section id="about" class="py-14">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-10 items-center">
-      <img src="/images/about.jpg" alt="Chef preparing Punjabi curry" class="rounded-2xl shadow-soft w-full object-cover" />
+      <img src="images/about.jpg" alt="Chef preparing Punjabi curry" class="rounded-2xl shadow-soft w-full object-cover" />
       <div>
         <h2 class="text-3xl font-bold tracking-tight">Welcome to Spice of Punjab</h2>
         <p class="mt-4">With years of culinary experience, we bring classic Punjabi recipes to life—rich gravies, smoky tandoori, and vibrant chaat—crafted with care for families and food lovers in Surrey.</p>
@@ -117,35 +110,35 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-end justify-between">
         <h2 class="text-3xl font-bold">Menu Highlights</h2>
-        <a href="/menu" class="text-brand-red hover:underline">See full menu →</a>
+        <a href="menu.html" class="text-brand-red hover:underline">See full menu →</a>
       </div>
       <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <article class="bg-brand-cream rounded-2xl shadow-soft overflow-hidden">
-          <img src="/images/dishes/butter-chicken.jpg" alt="Butter Chicken" class="w-full h-44 object-cover" />
+          <img src="images/dishes/butter-chicken.jpg" alt="Butter Chicken" class="w-full h-44 object-cover" />
           <div class="p-4">
             <h3 class="font-semibold">Butter Chicken</h3>
-            <p class="text-sm text-slate-600">Creamy tomato gravy, tender chicken. <strong>$15.99</strong></p>
+            <p class="text-sm text-slate-600">Creamy tomato gravy, tender chicken.</p>
           </div>
         </article>
         <article class="bg-brand-cream rounded-2xl shadow-soft overflow-hidden">
-          <img src="/images/dishes/chana-bhatura.jpg" alt="Chana Bhatura" class="w-full h-44 object-cover" />
+          <img src="images/dishes/chana-bhatura.jpg" alt="Chana Bhatura" class="w-full h-44 object-cover" />
           <div class="p-4">
             <h3 class="font-semibold">Chana Bhatura</h3>
-            <p class="text-sm text-slate-600">Spiced chickpeas with fluffy fried bread. <strong>$12.99</strong></p>
+            <p class="text-sm text-slate-600">Spiced chickpeas with fluffy fried bread.</p>
           </div>
         </article>
         <article class="bg-brand-cream rounded-2xl shadow-soft overflow-hidden">
-          <img src="/images/dishes/tandoori-mix-grill.jpg" alt="Tandoori Mix Grill" class="w-full h-44 object-cover" />
+          <img src="images/dishes/tandoori-mix-grill.jpg" alt="Tandoori Mix Grill" class="w-full h-44 object-cover" />
           <div class="p-4">
             <h3 class="font-semibold">Tandoori Mix Grill</h3>
-            <p class="text-sm text-slate-600">Clay-oven classics, smoky and succulent. <strong>$19.99</strong></p>
+            <p class="text-sm text-slate-600">Clay-oven classics, smoky and succulent.</p>
           </div>
         </article>
         <article class="bg-brand-cream rounded-2xl shadow-soft overflow-hidden">
-          <img src="/images/dishes/gol-gappe.jpg" alt="Gol Gappe" class="w-full h-44 object-cover" />
+          <img src="images/dishes/gol-gappe.jpg" alt="Gol Gappe" class="w-full h-44 object-cover" />
           <div class="p-4">
             <h3 class="font-semibold">Gol Gappe</h3>
-            <p class="text-sm text-slate-600">Crisp puri with tangy spiced water. <strong>$8.99</strong></p>
+            <p class="text-sm text-slate-600">Crisp puri with tangy spiced water.</p>
           </div>
         </article>
       </div>
@@ -162,7 +155,7 @@
           <a href="tel:+16045033031" class="inline-flex items-center rounded-lg border border-white px-5 py-3">Call 604‑503‑3031</a>
         </div>
       </div>
-      <img src="/images/catering.jpg" alt="Catering trays" class="rounded-2xl shadow-soft w-full object-cover" />
+      <img src="images/catering.jpg" alt="Catering trays" class="rounded-2xl shadow-soft w-full object-cover" />
     </div>
   </section>
 
@@ -170,12 +163,12 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-bold">Gallery</h2>
       <div class="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-        <img src="/images/gallery/1.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
-        <img src="/images/gallery/2.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
-        <img src="/images/gallery/3.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
-        <img src="/images/gallery/4.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
-        <img src="/images/gallery/5.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
-        <img src="/images/gallery/6.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
+        <img src="images/gallery/1.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
+        <img src="images/gallery/2.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
+        <img src="images/gallery/3.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
+        <img src="images/gallery/4.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
+        <img src="images/gallery/5.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
+        <img src="images/gallery/6.jpg" alt="Dish photo" class="rounded-xl w-full h-36 object-cover" />
       </div>
     </div>
   </section>

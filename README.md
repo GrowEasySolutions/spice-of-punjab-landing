@@ -1,19 +1,19 @@
-# Spice of Punjab – Landing Page
+# Spice of Punjab – Landing Page (Vercel-ready)
 
-This is a static, Vercel-ready one-page site for Spice of Punjab – Sweets & Restaurant (Surrey, BC).
+This is a static, one-page website with a separate Menu page.
 
-## Quick Start
-1. Upload everything in this folder to your GitHub repository root.
-2. Connect the repo to Vercel → Deploy (Framework: Other, no build).
-3. Add your custom domain in Vercel and update DNS at your registrar.
-4. Replace the placeholder images in `/images/` with real photos when available.
+## Contents
+- `index.html` – main landing page (relative image paths)
+- `menu.html` – dynamic menu rendered from `menu.json`
+- `menu.json` – menu data (edit prices/names here)
+- `images/` – all placeholder images (replace with real photos later)
 
-## Editing Content
-- Main file: `index.html`
-- Images: `/images` (hero, about, catering), `/images/dishes`, `/images/gallery`
-- Contact form: replace the Formspree `action` with your real endpoint.
+## Deploy
+1. Upload everything to your GitHub repo (root).
+2. Connect to Vercel → New Project → Framework: **Other** → Deploy.
+3. Add custom domain in Vercel → update DNS at registrar.
 
-## Suggested Monthly Care Plan
-- Image/content updates, hours changes, promos
-- Domain/SSL management, analytics, uptime checks
-- Light SEO and on-page tweaks
+## Notes
+- Images use **relative paths** like `images/hero.jpg` to prevent loading issues.
+- Update the contact form action in `index.html` to your **Formspree** endpoint.
+- Edit `menu.json` to manage categories, items, descriptions, prices.
