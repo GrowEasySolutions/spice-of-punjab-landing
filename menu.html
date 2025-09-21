@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu – Spice of Punjab</title>
+  <meta name="description" content="Full menu for Spice of Punjab – Sweets & Restaurant." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ --brand-red:#8B1D27; --brand-gold:#D4AF37; --brand-cream:#FFF7ED; }
+    .bg-brand-red{background-color:var(--brand-red)} .text-brand-red{color:var(--brand-red)}
+    .bg-brand-gold{background-color:var(--brand-gold)} .text-brand-gold{color:var(--brand-gold)}
+    .bg-brand-cream{background-color:var(--brand-cream)} .shadow-soft{box-shadow:0 10px 30px rgba(0,0,0,.08)}
+  </style>
+</head>
+<body class="antialiased text-[17px] leading-relaxed text-slate-800 bg-brand-cream">
+  <header class="bg-white border-b">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="images/logo.png" alt="Spice of Punjab logo" class="h-9 w-auto" />
+        <span class="font-semibold">Spice of Punjab</span>
+      </a>
+      <a href="index.html#contact" class="inline-flex items-center rounded-lg bg-brand-red text-white px-4 py-2 shadow-soft">Contact</a>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <h1 class="text-4xl font-extrabold">Our Menu</h1>
+    <p class="mt-2 text-slate-600">Menu populated from <code>menu.json</code>. Edit prices/names there.</p>
+
+    <div id="menu" class="mt-8 space-y-10"></div>
+  </main>
+
+  <footer class="border-t py-10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-sm text-slate-600">
+      © <span id="year"></span> Spice of Punjab. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    fetch('menu.json')
+      .then(r => r.json())
+      .then(data => {
+        const wrap = document.getElementById('menu');
+        data.categories.forEach(cat => {
+          const section = document.createElement('section');
+          section.innerHTML = `
+            <h2 class="text-2xl font-bold flex items-center gap-3">
+              <span class="text-brand-gold">◆</span> ${cat.name}
+            </h2>
+            <div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+          `;
+          const grid = section.querySelector('div.grid');
+          cat.items.forEach(it => {
+            const card = document.createElement('article');
+            card.className = "bg-white rounded-2xl shadow-soft p-5";
+            card.innerHTML = `
+              <h3 class="font-semibold">${it.name}</h3>
+              <p class="text-sm text-slate-600 mt-1">${it.desc || ""}</p>
+              <div class="mt-3 font-medium">${it.price || ""}</div>
+            `;
+            grid.appendChild(card);
+          });
+          wrap.appendChild(section);
+        });
+      })
+      .catch(err => {
+        document.getElementById('menu').innerHTML = '<p class="text-red-600">Failed to load menu.json</p>';
+        console.error(err);
+      });
+  </script>
+</body>
+</html>
